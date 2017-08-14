@@ -1,6 +1,6 @@
 # Created By Pieter De Rycke
 
-FROM tomcat:8.5.15-jre8
+FROM tomcat:8.5.15-jre8-alpine
 MAINTAINER Pieter De Rycke <phdrycke@gmail.com>
 
 RUN rm -fr /usr/local/tomcat/webapps/ROOT &&\
